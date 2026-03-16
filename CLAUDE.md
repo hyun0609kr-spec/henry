@@ -17,6 +17,23 @@ The repository is currently empty (no source files, no package.json, no CI confi
 
 ---
 
+## Installed Claude Code Skills
+
+### NotebookLM (`notebooklm`)
+
+Installed at `~/.claude/skills/notebooklm` (cloned from [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill)).
+
+Enables querying Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers. Uses browser automation via Patchright.
+
+**Prerequisites:** Chrome installed (auto-installed on first use), Google account, NotebookLM notebooks with uploaded sources.
+
+**Key commands:**
+- `"Set up NotebookLM authentication"` — one-time Google login
+- `"Query this notebook about its content and add it to my library: [link]"` — smart discovery + add
+- `"Ask my [notebook name] about [topic]"` — query a saved notebook
+
+---
+
 ## Development Workflow
 
 ### Branching Strategy
